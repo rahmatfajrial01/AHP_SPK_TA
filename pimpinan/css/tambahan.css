@@ -1,0 +1,19 @@
+.kotakgambar {
+    /* width: 10%; */
+    float: left;
+    margin: 0%;
+    padding: 0%;
+}
+.gambarlogo {
+    margin: 0%;
+    float: left;
+    width: 10%;
+    padding: 0%;
+}
+
+marquee {
+    padding: 0%;
+    float: right;
+    top: 0px;
+    right: 0px;
+}

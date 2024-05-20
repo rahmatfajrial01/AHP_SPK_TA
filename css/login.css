@@ -1,0 +1,31 @@
+html {
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-areas: ". . ."
+    ". loginkotak ."
+    ". . .";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    }
+
+.loginkotak{
+    background-color: rgba(0, 0, 0, 0.25);
+    grid-area: loginkotak;
+}
+
+.tabel {
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    height: 80%;
+}
+td {
+    align-self: center;
+    vertical-align: center;
+}
